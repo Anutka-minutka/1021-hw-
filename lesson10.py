@@ -18,3 +18,13 @@ class Counter:
 count=Counter(5)
 for elem in count:
     print(elem)
+
+def raise_to_the_dergees(number,max_dergees):
+    i=0
+    for _ in range(max_dergees):
+        yield number**i
+        i+=1
+res=raise_to_the_dergees(122345,500)
+print(res)
+for _ in res:
+    print(_)
