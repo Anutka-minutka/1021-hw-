@@ -86,8 +86,8 @@ class Anna:
         print(f"Money - {self.money}")
         print(f"Satiety - {self.satiety}")
         print(f"Gladness - {self.gladness}")
-        home_indexes = 'Home indexes'
-        print(f'{home_indexes:^50}', '\n')
+        room_indexes = 'Room indexes'
+        print(f'{room_indexes:^50}', '\n')
         print(f'Mess - {self.mess}')
     def is_alive(self):
         if self.gladness < 0:
